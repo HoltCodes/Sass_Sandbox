@@ -1,14 +1,16 @@
 {
-  "name": "Sass_Sandbox(RH)",
+  "name": "Sass_Sandbox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "deploy": "gh-pages -d dist"
+   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/HoltCodes/Sass_Sandbox",
   "dependencies": {
     "node-sass": "^5.0.0"
   }
